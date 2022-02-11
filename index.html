@@ -1,0 +1,39 @@
+<html id="htmlPage">
+    
+
+    <title>Home Task</title>
+    <header>
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+    </header>
+    <br><br>
+    <center><img src ="welcome.png" style="width: 40%;;"></center><br>
+    <center><body id="bodyHTML" name="bodyHTML" onload="onLoadFunc()">
+        <script src="./app.js"></script>
+
+        <div id="details" name="details">
+            <form id="insertDetails" name="insertDetails" method="post">
+                <label id="lblImage">Banner IMG URL:</label><br>
+                <input type="text" id="banImgURL" name="banImgURL"><br>
+                <label id="lblLink">Redirect Link:</label><br>
+                <input type="text" id="redirectLink" name="redirectLink"><br><br>
+                <input id="submit" type="submit" value="Submit" onclick="createNewBanner(document.getElementById('banners-list').id, document.getElementById('redirectLink').value, document.getElementById('banImgURL').value); return false;">
+            </form>
+        </div>
+        <br><br><br>    
+                
+        <div id="memory" name="memory">
+            <form id="saveToStorage">
+                <button type="button" id="save" name="save" onclick="savetoStorage()">Save</button>
+                <button type="button" id="clear" name="clear" onclick="clearStorage()">clear</button>
+            </form>
+        </div>
+
+        <br><br>
+        <div id="banners-list">
+            <br><br><br> <h2>Banners List:</h2><br>
+        </div>
+    </body></center>
+
+
+
+</html>
