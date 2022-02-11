@@ -2,7 +2,9 @@
 
 Omer Niv
 
-###Functionalities:
+##Functionalities:
 - Adding images that on click redirects to url
 - Saving this infomation in the localStorage and retrieving it when needed
 - On page load, the web page will load the images with their links to the banner-list div
+
+![image](https://user-images.githubusercontent.com/63054684/153612643-f69c627a-1288-4efa-a0a2-93c7d3ac3274.png)
