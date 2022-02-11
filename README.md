@@ -2,6 +2,9 @@
 
 Omer Niv
 
+URL:
+https://omerniv123.github.io/Apptimus/
+
 ### Functionalities:
 - Adding images that on click redirects to url
 - Saving this infomation in the localStorage and retrieving when needed
