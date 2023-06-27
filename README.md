@@ -1,4 +1,4 @@
-# Apptimus Home Task
+# Apptimus redirections
 
 Omer Niv
 
